@@ -1,0 +1,93 @@
+//colors:
+$white-color: #fff;
+$black-color: #000;
+$bg-color: #c1c1c1;
+
+//navigation:
+$nav-padding: 27px 50px;
+$nav-color: $white-color;
+$nav-color-hover: $black-color;
+$nav-font-size: 11px;
+$nav-line-height: 19px;
+$nav-letter-spacing: 3.4px;
+$nav-link-pr: 25px;
+$search-icon-bg: #c1c1c1;
+$search-icon-color: #fff;
+$search-icon-width: 24px;
+
+//logo
+
+$logo-width: 144px;
+$logo-height: 26px;    
+$logo-bg-size: $logo-width $logo-height; 
+
+//intro
+
+$intro-details-min-height: 840px;
+$intro-details-min-height-mobile: 440px;
+$intro-pb: 60px;
+$intro-text-color: $white-color;
+$intro-font-size: 11px;
+$intro-text-line-height: 24px;
+$intro-text-letter-spacing: 3.4px;
+$intro-text-mb: 24px;
+$intro-title-color: $white-color;
+$intro-title-font-size: 40px;
+$intro-title-line-height: 58px;
+$intro-title-max-width: 550px;
+$intro-title-mb: 28px;
+$intro-description-color: $white-color;
+$intro-description-font-size: 16px;
+$intro-description-line-height: 20px;
+$intro-icon-color: $white-color;
+$intro-icon-font-size: 32px;
+
+//about
+
+$about-bg: #F5F5F5;
+$about-padding: 70px 0 90px 0;
+$about-padding-mobile: 0 20px;
+$about-title-color: #333;
+$about-title-font-size: 32px;
+$about-title-line-height: 44px;
+$about-title-mb: 40px;
+$about-description-color: #777;
+$about-description-font-size: 15px;
+$about-description-line-height: 30px;
+$about-description-padding: 0 80px 0 10px;
+$about-title-mt: 40px;
+
+
+// Gallery
+
+$gallery-margin: 85px 0 30px 0;
+$gallery-filter-padding: 30px 0;
+$gallery-filter-color: $white-color;
+$gallery-filter-active-color: #28bea8;
+$gallery-filter-color: #3498DB;
+$gallery-filter-link-font-size: 11px;
+$gallery-filter-link-line-height: 11px;
+$gallery-filter-link-mr: 50px;
+$gallery-filter-link-letter-spacing: 3.4px;
+$gallery-card-mb: 15px;
+$gallery-card-mr: 15px;
+$gallery-card-color: $black-color;
+$gallery-card-border-color: #eee;
+$gallery-card-bg-color: $white-color;
+$gallery-card-hover-color: $white-color;
+$gallery-card-hover-padding: 30px;
+
+//footer
+
+$footer-bg: #3498DB;
+$footer-padding: 90px 0 60px 0;
+$footer-link-color: $white-color;
+$footer-link-mb: 20px;
+$footer-link-font-size: 23px;
+$footer-link-line-height: 23px;
+$footer-link-letter-spacing: 5px;
+$footer-copyright-bg: #278DD1;
+$footer-copyright-text-font-size: 12px;
+$footer-copyright-text-color: #B0D6EF;
+$footer-copyright-text-padding: 25px 0;
+$footer-copyright-text-line-height: 20px; 

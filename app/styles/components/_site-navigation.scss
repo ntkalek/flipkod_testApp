@@ -1,0 +1,93 @@
+.site-navigation {
+    padding: $nav-padding;
+    display: flex;
+    justify-content: space-between;
+
+    &__logo {
+        background: url('../images/logo.svg');  
+        display: block;
+        text-indent: -9999px;
+        width: $logo-width;
+        height: $logo-height;    
+        background-size: $logo-bg-size;         
+    }
+
+    &__menu {
+        display: flex;
+    }
+
+    &__links {
+        color: $nav-color;
+        text-transform: uppercase;
+        text-decoration: none;
+        padding-right: $nav-link-pr;
+        transition: 0.4s;
+
+        &:hover {
+            color: $nav-color;
+            text-decoration: underline;
+        }
+    }
+
+    &__search-icon {
+        border: 0;
+        width: $search-icon-width;
+        cursor: pointer;
+        color: $search-icon-color;
+        background: $search-icon-bg;
+
+        &::placeholder {
+            color: white;            
+        }
+    }
+
+    &__show-menu-btn,
+    &__hide-menu-btn {
+        transition: 0.4s;
+        cursor: pointer;
+        display: none;
+    }
+  
+    #mobile-buttons {
+        position: absolute;
+        visibility: hidden;
+        z-index: -1111;
+    }
+}
+@media screen and (max-width: 480px) {
+    .site-navigation {
+        &__menu {
+            position: fixed;
+            width: 75%;
+            height: auto;
+            background: #c3c3c3;
+            right: -100%;
+            top: 1px;
+            transition: 0.7s;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            border: 1px solid white;
+        }
+
+        &__links { 
+            padding: 10px 0;
+        }
+
+        &__show-menu-btn,
+        &__hide-menu-btn {
+            display: block;
+            color: white;
+        }
+
+        &__hide-menu-btn {
+            position: absolute;
+            top: 0; 
+            right: 10px;
+        }
+
+        #mobile-buttons:checked ~ .site-navigation__menu {
+            right: 1px;
+        }
+    }
+}

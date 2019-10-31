@@ -1,0 +1,36 @@
+.about {
+
+  &__text-block {
+    padding: $about-padding;
+
+    @media screen and (max-width: 480px) { 
+      padding: 0;
+    }
+  }
+
+  &__title {
+    color: $about-title-color;
+    font-size: $about-title-font-size;
+    line-height: $about-title-line-height;
+    margin-bottom: $about-title-mb;
+
+    @media screen and (max-width: 480px) { 
+      margin-top: $about-title-mt;
+    }
+  }
+
+  &__img-text-block {
+    background-color: $about-bg;
+  }
+
+  &__description {
+    color: $about-description-color;
+    font-size: $about-description-font-size;
+    line-height: $about-description-line-height;
+    padding: $about-description-padding;
+
+    @media screen and (max-width: 480px) { 
+      padding: $about-padding-mobile;
+    }
+  }
+}

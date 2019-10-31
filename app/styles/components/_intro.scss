@@ -1,0 +1,46 @@
+.intro {
+  background: $bg-color;
+  padding-bottom: $intro-pb;
+
+  &__details {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      min-height: $intro-details-min-height;
+
+      @media screen and (max-width: 480px) { 
+        min-height: $intro-details-min-height-mobile;
+      }
+  }
+
+  &__text {
+    color: $intro-text-color;
+    font-size: $intro-font-size;
+    line-height: $intro-text-line-height;
+    letter-spacing: $intro-text-letter-spacing;
+    text-transform: uppercase;
+    margin-bottom: $intro-text-mb;
+  }
+
+  &__title {
+    color: $intro-title-color;
+    font-size: $intro-title-font-size;
+    line-height: $intro-title-line-height;
+    max-width: $intro-title-max-width;
+    font-weight: 300;
+  }
+
+  &__description {
+    color: $intro-description-color;
+    font-size: $intro-description-font-size;
+    line-height: $intro-description-line-height;
+    font-weight: 300;
+  }
+
+  &__icon {
+    font-size: $intro-icon-font-size;
+    color: $intro-icon-color; 
+  }
+
+}
